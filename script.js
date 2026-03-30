@@ -1,1 +1,1 @@
-
+let currentDrag = null;
