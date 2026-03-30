@@ -6,3 +6,6 @@ colors.forEach(color => {
     currentDrag = color;
   });
 });
+workspace.addEventListener('dragover', (e) => {
+  e.preventDefault();
+});
