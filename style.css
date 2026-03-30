@@ -1,1 +1,9 @@
-
+.container {
+  display: flex;
+  height: 100vh;
+}
+.sidebar {
+  width: 120px;
+  padding: 10px;
+  gap: 10px;
+}
