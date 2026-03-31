@@ -6,6 +6,8 @@ colors.forEach(color => {
     currentDrag = color;
   });
 });
-workspace.addEventListener('dragover', (e) => {
-  e.preventDefault();
+workspace.addEventListener('drop', (e) => {
+  const r = parseInt(currentDrag.dataset.r);
+  const g = parseInt(currentDrag.dataset.g);
+  const b = parseInt(currentDrag.dataset.b);
 });
