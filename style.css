@@ -10,6 +10,10 @@
   flex-direction: column;
   gap: 10px;
 }
+#workspace{
+   flex: 1;
+  position: relative;
+}
 #palette .color {
   cursor: grab;
 }
