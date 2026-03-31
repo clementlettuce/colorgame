@@ -10,3 +10,10 @@
   flex-direction: column;
   gap: 10px;
 }
+#palette .color {
+  cursor: grab;
+}
+#workspace .circle {
+  position: absolute;
+  cursor: grab;
+}
